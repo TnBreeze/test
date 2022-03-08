@@ -1,0 +1,103 @@
+
+
+body{
+  margin: 0;
+}
+.page{
+  font-family: "Arial", "Tahoma", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333333;
+  background-color: #eae9f2;
+  margin: 0;
+
+}
+
+.page-header{
+margin-bottom: 40px;
+padding: 5%;
+padding-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.im{
+  max-width: 100px;
+  min-height: auto;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+}
+.q{
+  display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-bottom: 20px;
+}
+
+button {
+  position: relative;
+  margin-top: 50px;
+  padding-top: 7px;
+  padding-right: 16px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  font-size: 12px;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #138900;
+  border: 1px solid #138900;
+}
+button:active {
+  opacity: 0.8;
+}
+
+button:focus,
+button:hover {
+  color: #ffffff;
+  background-color: #138900;
+}
+
+main{
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+p{
+  padding-bottom: 20px;
+}
+
+ul{
+ padding-bottom: 20px;
+
+}
+  li{padding-bottom: 10px;
+
+  }
+
+img {
+  max-width: 80%;
+  height: auto;
+  text-align: center;
+}
+
+.al{
+  padding: 20px;
+  padding-right: 10%;
+  padding-left: 10%;
+  background-color: #138900;
+text-align: right;
+color: black;
+}
+ .hi{
+ text-align: center;
+  margin-bottom: 20px;
+ margin-top: 0;
+ }
+ a{
+  text-decoration: none;
+  color: black;
+ }
